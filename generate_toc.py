@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from glob import glob
 import yaml
 import jinja2
