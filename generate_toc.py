@@ -35,6 +35,9 @@ for p, m in meta.items():
 
             posts_by_tag[t].append(p)
 
+if not os.path.exists('contents'):
+    os.mkdir('contents')
+
 subtree_template = jinja2.Template("""
 {{title}}
 --------------------------------------------------------------------------------
